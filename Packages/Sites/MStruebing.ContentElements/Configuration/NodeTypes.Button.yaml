@@ -1,0 +1,22 @@
+'MStruebing.ContentElements:ButtonFluid':
+  superTypes:
+    'TYPO3.Neos:Content': TRUE
+    'TYPO3.Neos.NodeTypes:LinkMixin': TRUE
+  ui:
+    label: 'Button-Fluid'
+    icon: 'icon-object-group'
+    inspector:
+      groups:
+        link:
+          label: Link
+  properties:
+    buttonText:
+      type: string
+      ui:
+        inlineEditable: TRUE
+        aloha:
+          placeholder: 'Enter button text here ...'
+    link:
+      ui:
+        inspector:
+          group: link

@@ -5,6 +5,7 @@
 <head>
 	<f:section name="stylesheets">
 		<!-- Put your stylesheet inclusions here, they will be included in your website by TypoScript -->
+                <link rel="stylesheet" type="text/css" href="{f:uri.resource(path: 'resource://MStruebing.ContentElements/Public/Styles/Main.css')}">
 	</f:section>
 	<f:section name="headScripts">
 		<!-- Put your scripts inclusions for the head here, they will be included in your website by TypoScript -->
@@ -21,6 +22,10 @@
 </f:section>
 <f:section name="bodyScripts">
 	<!-- Put your scripts inclusions for the end of the body here, they will be included in your website by TypoScript -->
+        <script type="text/javascript"
+			src="{f:uri.resource(path: 'resource://MStruebing.ContentElements/Public/JavaScript/App.js')}"
+			async>
+	</script>
 </f:section>
 </body>
 </html>
